@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* layout */
+.wrap > div{
+    margin-bottom: 65px;
+}
+
+
+/* 과제 1 */
+.ex_01 p{
+    color: #fff;
+}
+
+.ex_01 p.red{
+    background-color: red;
+}
+
+.ex_01 p.orange{
+    background-color: orange;
+}
+
+.ex_01 p.yellow{
+    background-color: yellow;
+}
+
+.ex_01 p.green{
+    background-color: green;
+}
+
+.ex_01 p.blue{
+    background-color: blue;
+}
+
+.ex_01 p.violet{
+    background-color: violet;
+}
+
+.ex_01 p.purple{
+    background-color: purple;
+}
+
+.ex_01 p.black{
+    background-color: black;
+}
+
+/* 과제 2*/
+.ex_02 img#img_02{
+    background-color: #ff0;
+}
+
+.ex_02 img#img_05{
+    background-color: #f90;
+}
+
+.ex_02 img#img_07{
+    background-color: #6af;
+}
+
+/* 과제3 */
+.ex_03 img.facebook:hover{
+    background-color: #00f;
+}
+
+.ex_03 img.instagram:hover{
+    background-color: #f70;
+}
+
+.ex_03 img.pinterest:hover{
+    background-color: #c00;
+}
+
+.ex_03 img.twitter:hover{
+    background-color: #08f;
+}
+
+.ex_03 img.youtube:hover{
+    background-color: #f00;
+}
+
+/* 과제4 */
+.ex_04 > ul > li.menu1 > ul > li.history > a{
+    background-color: #f00;
+    color: #fff;
+}
+
+.ex_04 > ul > li.menu2 > ul > .kids > a{
+    background-color:#ff0;
+}
+
+.ex_04 > ul > li.menu3 > ul > li.notice > a{
+    background-color: #08f;
+    color: #fff;
+}
