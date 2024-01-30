@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('./../font/Ubuntu.eot');
+    src: url('./../font/Ubuntu.eot?#iefix') format('embedded-opentype'),
+        url('./../font/Ubuntu.woff2') format('woff2'),
+        url('./../font/Ubuntu.woff') format('woff'),
+        url('./../font/Ubuntu.ttf') format('truetype'),
+        url('./../font/Ubuntu.svg#Ubuntu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* layout */
+.wrap > div{
+    margin-bottom: 65px;
+}
+
+/* 과제1 */
+#ex_01{
+    width: 600px;
+    height: 100px;
+    background-color: #ff7800;
+    text-align: center;
+    line-height: 4.2;
+}
+
+#ex_01 > h4{
+    font-size: 24px;
+    color: #fff;
+    font-family: Ubuntu;
+}
+
+#ex_01 > h4 > span{
+    font-family: 'Nanum Pen Script';
+}
+
+/* 과제2 */
+#ex_02{
+    width: 800px;
+    height: 400px;
+    background-image: url(./../img/land_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* 과제3 */
+#ex_03{
+    width: 500px;
+    height: 500px;
+    background-image: url(./../img/character_01.png);
+    background-size: 40px;
+    background-position: 50% 50%;
+}
+
+/* 과제4 */
+#ex_04{
+    width: 500px;
+    height: 500px;
+    background-image: url(./../img/bg_04.png);
+    background-size: 250px;
+}
+
+.inner_img{
+    width: 100%;
+    height: 100%;
+    background-size: 250px;
+    background-image: url(./../img/ryon.gif);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* 과제5 */
+#ex_05{
+    width: 600px;
+    background-color: #ddd;
+}
+
+#ex_05 .bg_img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./../img/bg_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#ex_05 .bg_img .dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#ex_05 .bg_img .dark h3{
+    font-size: 28px;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 7.2;
+    font-family: Ubuntu;
+}
+
+#ex_05 p{
+    font-size: 18px;
+    color: #555;
+    font-family: Ubuntu;
+}
+
+#ex_05 p span.kor{
+    font-family: 'Nanum Pen Script';
+}
