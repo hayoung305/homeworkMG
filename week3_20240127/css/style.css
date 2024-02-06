@@ -25,13 +25,14 @@
     height: 100px;
     background-color: #ff7800;
     text-align: center;
-    line-height: 4.2;
+   
 }
 
 #ex_01 > h4{
     font-size: 24px;
     color: #fff;
     font-family: Ubuntu;
+    line-height: 4.2;
 }
 
 #ex_01 > h4 > span{
